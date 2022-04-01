@@ -3,9 +3,12 @@ package ru.skypro;
 public class Book {
     private String nameBook;
     private int publicationYear;
-    public Book(String nameBook, String authorBook, int publicationYear) {
+    private Author author;
+
+    public Book(String nameBook, int publicationYear, Author author) {
         this.nameBook = nameBook;
         this.publicationYear = publicationYear;
+        this.author = author;
 
     }
 
