@@ -15,6 +15,4 @@ public class Author {
 
         return this.authorBook;
     }
-
-
 }
